@@ -1,0 +1,21 @@
+Execution:
+Run the runner.java class as Testng test
+Location for runner.java class:"src/test/java/com/anz/runner/Runner.java" 
+
+Reports can be seen in "Reports" Folder
+every execution reports will be generated with current execution date and time.
+
+
+Solution for Questions:
+1. What other scenarios would you suggest for the given page? List 3-5 suggestion
+	> Scenario with 'Single' appplication type and 'Residential Investment' as property would you like to buy
+	> Scenario with 'Joint' appplication type and 'Residential Investment' as property would you like to buy
+	> Scenario with 'Joint' appplication type and 'Home to live in' as property would you like to buy
+	> Scenario with 'Joint' application type and passing '2nd applicant's annual income (before tax)' as $0 and '2nd applicant's annual other income' as $0
+	
+2. If this test was part of the much larger test suite, how could you run a specific test or subset/group of test
+	>Since this framework in using TestNg we can execute the suite in gropus with parallel execution
+
+3. Sometimes UI tests can fail unpredictably. For example, the page may not have fully loaded before the automated test attempts to click a button on a web page. How would you improve reliability of these tests without increasing execution time?
+	>We can use explicit and fluent wait to handle the unpredicted conditions for failure. We can use the rerun of failed scenarios
+	
